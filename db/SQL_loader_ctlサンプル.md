@@ -18,3 +18,6 @@
 
 ※接続情報はsql*plusと同じ。
 
+# Origin
+
+https://www.dropbox.com/scl/fi/5ov376n99yugpxpvad3j8/SQLloader-ctl.paper?dl=0&rlkey=oh1waijovlswoqbdgj0vjlpbz
