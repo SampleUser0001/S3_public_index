@@ -6,7 +6,7 @@
     infile '<csvパス>'
     append
     into table <テーブル名>
-    field terminated by ','
+    fields terminated by ','
     optionally enclosed by '"'
     trailing nullcols(
       <カラム名>, <カラム名> ...
