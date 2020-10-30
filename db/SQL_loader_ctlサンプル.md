@@ -5,8 +5,8 @@
     load data
     infile '<csvパス>'
     append
-    info table <テーブル名>
-    field terminateed by ','
+    into table <テーブル名>
+    field terminated by ','
     optionally enclosed by '"'
     trailing nullcols(
       <カラム名>, <カラム名> ...
