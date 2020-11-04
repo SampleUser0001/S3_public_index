@@ -7,7 +7,7 @@ options(skip = 1)
 load data
 infile '<csvパス>'
 <登録方法>
-preserve branks
+preserve blanks
 into table <テーブル名>
 fields terminated by ','
 optionally enclosed by '"'
