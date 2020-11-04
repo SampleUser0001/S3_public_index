@@ -7,6 +7,7 @@ options(skip = 1)
 load data
 infile '<csvパス>'
 <登録方法>
+preserve branks
 into table <テーブル名>
 fields terminated by ','
 optionally enclosed by '"'
@@ -16,7 +17,9 @@ trailing nullcols(
 ```
 
 # 実行
-    sqlldr <接続情報> <ctlファイルパス>
+```
+sqlldr <接続情報> <ctlファイルパス>
+```
 
 ※接続情報はsql*plusと同じ。
 
@@ -27,3 +30,7 @@ trailing nullcols(
 # Origin
 
 https://www.dropbox.com/scl/fi/5ov376n99yugpxpvad3j8/SQLloader-ctl.paper?dl=0&rlkey=oh1waijovlswoqbdgj0vjlpbz
+
+# 参考
+
+[SQL*Loader](https://www.ne.jp/asahi/hishidama/home/tech/oracle/sqlldr.html)
